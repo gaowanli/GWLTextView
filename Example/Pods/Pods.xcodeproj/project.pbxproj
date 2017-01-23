@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08319F77764CE1CAF56621204B878288 /* GWLTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC2520C1ECC7B22B791D448F5C9FE4 /* GWLTextView-dummy.m */; };
+		0FC930E92F369994058D08D3DCB1A303 /* GWLTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A80E81B539BC27F5BA53035F6CD931A1 /* GWLTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43862FFD96007AC05CBDCD493B64188E /* Pods-GWLTextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF66DBAA9F05FA268F74DAD8DDD7DF50 /* Pods-GWLTextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D5838B7540A93E92DA19D6F35DF29BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7776E114716BA0A5F2E012A9D3C53A03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		77E8C6FD40B63A40A3F0037FE6B812B7 /* Pods-GWLTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5EE257D32B97E79108BA71C380FCFA /* Pods-GWLTextView_Example-dummy.m */; };
+		7BC8E9D7F819E0BDF1BB21C2074F0611 /* Pods-GWLTextView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 300671E7410CF5375FD546227FAA328A /* Pods-GWLTextView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FB13DB2B802DCA650DE2E72E9999AB5 /* GWLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = AFFFA3EB175AD9B9B4278B62055FFED7 /* GWLTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		874CF004F58A8930DD42A50B12064A7C /* Pods-GWLTextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B03DC45CC87BAF3CA7422033657C9A6D /* Pods-GWLTextView_Tests-dummy.m */; };
+		C408C4C2D7B0430AFB492F9674C78C7C /* GWLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C433ACC399847D5E98EE9FDCAE171E4D /* GWLTextView.m */; };
+		C618F3FA05E31C43FE7B81AD45A3E865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E05703A8A1BD3A8CB14C1D38EE1160F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44DB4C0ACC054D896144D76ACB1DED76;
+			remoteInfo = GWLTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047D73A6F987F0316C6A3F95DE30229A /* Pods-GWLTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GWLTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B5EE257D32B97E79108BA71C380FCFA /* Pods-GWLTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GWLTextView_Example-dummy.m"; sourceTree = "<group>"; };
+		0C36C5395CF8F5128850810672DD1FEE /* Pods_GWLTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GWLTextView_Tests.framework; path = "Pods-GWLTextView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		193BDC958B1E2361DF1273CE1FD267D1 /* Pods-GWLTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GWLTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A1E0E1970403F4991D676495E2C3A22 /* Pods-GWLTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GWLTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FFD4A811A2AEDAFC9CA7D460A89AB27 /* Pods-GWLTextView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GWLTextView_Tests-resources.sh"; sourceTree = "<group>"; };
+		20A8F14D180C5B9DEF6E9120C5ADE191 /* GWLTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GWLTextView.modulemap; sourceTree = "<group>"; };
+		253DCF705B2BD4C62BD9718603140080 /* Pods-GWLTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GWLTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		300671E7410CF5375FD546227FAA328A /* Pods-GWLTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GWLTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5005AC43AB456E19BA4013037FF5576D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5598F22FE8E686138C8157283E2BBBC2 /* Pods-GWLTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GWLTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5C3238404B8D65A170288C22AC092208 /* Pods-GWLTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GWLTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5CB9BCD4FAFF3BE63A1672F0FE0AA053 /* Pods-GWLTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GWLTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5D5151CCD65DDF7C88128B82BFCB343A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B0A650C2D1815BA3985B36D3191EEB /* Pods-GWLTextView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GWLTextView_Example-resources.sh"; sourceTree = "<group>"; };
+		73B852C43AF10FCF4E62AD3DF8526A50 /* Pods-GWLTextView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GWLTextView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8247A3B09DD181A9F6F0897B9A4599A2 /* Pods-GWLTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GWLTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8EA0F4E46292C13D9DA198EBBEF857BE /* Pods-GWLTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GWLTextView_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A80E81B539BC27F5BA53035F6CD931A1 /* GWLTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GWLTextView-umbrella.h"; sourceTree = "<group>"; };
+		AA5C619D74F7484793C731C5584CBFC0 /* GWLTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GWLTextView.framework; path = GWLTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF66DBAA9F05FA268F74DAD8DDD7DF50 /* Pods-GWLTextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GWLTextView_Example-umbrella.h"; sourceTree = "<group>"; };
+		AFFFA3EB175AD9B9B4278B62055FFED7 /* GWLTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GWLTextView.h; sourceTree = "<group>"; };
+		B03DC45CC87BAF3CA7422033657C9A6D /* Pods-GWLTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GWLTextView_Tests-dummy.m"; sourceTree = "<group>"; };
+		B1EC2520C1ECC7B22B791D448F5C9FE4 /* GWLTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GWLTextView-dummy.m"; sourceTree = "<group>"; };
+		C07EA9B84EE37061D58D235220BE0799 /* GWLTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GWLTextView-prefix.pch"; sourceTree = "<group>"; };
+		C306426682A8F283D5AF2AE391B35F8A /* GWLTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GWLTextView.xcconfig; sourceTree = "<group>"; };
+		C433ACC399847D5E98EE9FDCAE171E4D /* GWLTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GWLTextView.m; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2190AF167F363FFD1850C64C4E6127C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D94DE5262305719822504933B1719A91 /* Pods-GWLTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GWLTextView_Example.modulemap"; sourceTree = "<group>"; };
+		F0871233D3EE042195A5428E48C06B15 /* Pods_GWLTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GWLTextView_Example.framework; path = "Pods-GWLTextView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1C943B629306F331BE573F828C94EA /* Pods-GWLTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GWLTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B43D2BC63C957D2B385876BA99AD105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7776E114716BA0A5F2E012A9D3C53A03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81EE2AB6DAF24B96101458523C86293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C618F3FA05E31C43FE7B81AD45A3E865 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA3CEAF3A52B7B45F3CBBE28EC5979C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5838B7540A93E92DA19D6F35DF29BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D61F76DB152F660543E9B13578579E3 /* Pods-GWLTextView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D2190AF167F363FFD1850C64C4E6127C /* Info.plist */,
+				D94DE5262305719822504933B1719A91 /* Pods-GWLTextView_Example.modulemap */,
+				8247A3B09DD181A9F6F0897B9A4599A2 /* Pods-GWLTextView_Example-acknowledgements.markdown */,
+				193BDC958B1E2361DF1273CE1FD267D1 /* Pods-GWLTextView_Example-acknowledgements.plist */,
+				0B5EE257D32B97E79108BA71C380FCFA /* Pods-GWLTextView_Example-dummy.m */,
+				5598F22FE8E686138C8157283E2BBBC2 /* Pods-GWLTextView_Example-frameworks.sh */,
+				63B0A650C2D1815BA3985B36D3191EEB /* Pods-GWLTextView_Example-resources.sh */,
+				AF66DBAA9F05FA268F74DAD8DDD7DF50 /* Pods-GWLTextView_Example-umbrella.h */,
+				253DCF705B2BD4C62BD9718603140080 /* Pods-GWLTextView_Example.debug.xcconfig */,
+				5CB9BCD4FAFF3BE63A1672F0FE0AA053 /* Pods-GWLTextView_Example.release.xcconfig */,
+			);
+			name = "Pods-GWLTextView_Example";
+			path = "Target Support Files/Pods-GWLTextView_Example";
+			sourceTree = "<group>";
+		};
+		2DFA8953ED22B8C77224D68F9D14FDD8 /* Pods-GWLTextView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5D5151CCD65DDF7C88128B82BFCB343A /* Info.plist */,
+				8EA0F4E46292C13D9DA198EBBEF857BE /* Pods-GWLTextView_Tests.modulemap */,
+				047D73A6F987F0316C6A3F95DE30229A /* Pods-GWLTextView_Tests-acknowledgements.markdown */,
+				5C3238404B8D65A170288C22AC092208 /* Pods-GWLTextView_Tests-acknowledgements.plist */,
+				B03DC45CC87BAF3CA7422033657C9A6D /* Pods-GWLTextView_Tests-dummy.m */,
+				73B852C43AF10FCF4E62AD3DF8526A50 /* Pods-GWLTextView_Tests-frameworks.sh */,
+				1FFD4A811A2AEDAFC9CA7D460A89AB27 /* Pods-GWLTextView_Tests-resources.sh */,
+				300671E7410CF5375FD546227FAA328A /* Pods-GWLTextView_Tests-umbrella.h */,
+				1A1E0E1970403F4991D676495E2C3A22 /* Pods-GWLTextView_Tests.debug.xcconfig */,
+				FE1C943B629306F331BE573F828C94EA /* Pods-GWLTextView_Tests.release.xcconfig */,
+			);
+			name = "Pods-GWLTextView_Tests";
+			path = "Target Support Files/Pods-GWLTextView_Tests";
+			sourceTree = "<group>";
+		};
+		494A4CF1F615E351A5A1FE2BC5B28A64 /* GWLTextView */ = {
+			isa = PBXGroup;
+			children = (
+				5BDA60604203F1D2C3AB6EDC82C4AC39 /* GWLTextView */,
+				78CB48EB961F18344E8FFE648A415C8C /* Support Files */,
+			);
+			name = GWLTextView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		585FC9A025D85ED159573509307B9C7A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D61F76DB152F660543E9B13578579E3 /* Pods-GWLTextView_Example */,
+				2DFA8953ED22B8C77224D68F9D14FDD8 /* Pods-GWLTextView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5BDA60604203F1D2C3AB6EDC82C4AC39 /* GWLTextView */ = {
+			isa = PBXGroup;
+			children = (
+				8B6A779A0EA9C03EBC1CB48A57DDE363 /* Classes */,
+			);
+			name = GWLTextView;
+			path = GWLTextView;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		78CB48EB961F18344E8FFE648A415C8C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20A8F14D180C5B9DEF6E9120C5ADE191 /* GWLTextView.modulemap */,
+				C306426682A8F283D5AF2AE391B35F8A /* GWLTextView.xcconfig */,
+				B1EC2520C1ECC7B22B791D448F5C9FE4 /* GWLTextView-dummy.m */,
+				C07EA9B84EE37061D58D235220BE0799 /* GWLTextView-prefix.pch */,
+				A80E81B539BC27F5BA53035F6CD931A1 /* GWLTextView-umbrella.h */,
+				5005AC43AB456E19BA4013037FF5576D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GWLTextView";
+			sourceTree = "<group>";
+		};
+		79BE904CD3F1F5718AAC9AAFB23E8072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5C619D74F7484793C731C5584CBFC0 /* GWLTextView.framework */,
+				F0871233D3EE042195A5428E48C06B15 /* Pods_GWLTextView_Example.framework */,
+				0C36C5395CF8F5128850810672DD1FEE /* Pods_GWLTextView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FB377FD4C7B864EB8A8F127D7A1C0C32 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				79BE904CD3F1F5718AAC9AAFB23E8072 /* Products */,
+				585FC9A025D85ED159573509307B9C7A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B6A779A0EA9C03EBC1CB48A57DDE363 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AFFFA3EB175AD9B9B4278B62055FFED7 /* GWLTextView.h */,
+				C433ACC399847D5E98EE9FDCAE171E4D /* GWLTextView.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB377FD4C7B864EB8A8F127D7A1C0C32 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				494A4CF1F615E351A5A1FE2BC5B28A64 /* GWLTextView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6D8086B6D01439585DC5392569BE4761 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC8E9D7F819E0BDF1BB21C2074F0611 /* Pods-GWLTextView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEABEBFE25EE3211137B730553EF3BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC930E92F369994058D08D3DCB1A303 /* GWLTextView-umbrella.h in Headers */,
+				7FB13DB2B802DCA650DE2E72E9999AB5 /* GWLTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D416A52260667A9D25EE0A54D65201E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43862FFD96007AC05CBDCD493B64188E /* Pods-GWLTextView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13A2007B99C2137011DBB1D7ECD2E987 /* Pods-GWLTextView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33EC65FFA3374790D4C785435509BF86 /* Build configuration list for PBXNativeTarget "Pods-GWLTextView_Example" */;
+			buildPhases = (
+				A936F295A4492F20E1170516CDFC41D2 /* Sources */,
+				1B43D2BC63C957D2B385876BA99AD105 /* Frameworks */,
+				D416A52260667A9D25EE0A54D65201E8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E91FE721206D950DFA1FA16C8E4ECB82 /* PBXTargetDependency */,
+			);
+			name = "Pods-GWLTextView_Example";
+			productName = "Pods-GWLTextView_Example";
+			productReference = F0871233D3EE042195A5428E48C06B15 /* Pods_GWLTextView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		44DB4C0ACC054D896144D76ACB1DED76 /* GWLTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C458C2C432D596865B0D45D4FF53594C /* Build configuration list for PBXNativeTarget "GWLTextView" */;
+			buildPhases = (
+				121CF70A93001E119E3845C93E90D259 /* Sources */,
+				FAA3CEAF3A52B7B45F3CBBE28EC5979C /* Frameworks */,
+				AFEABEBFE25EE3211137B730553EF3BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GWLTextView;
+			productName = GWLTextView;
+			productReference = AA5C619D74F7484793C731C5584CBFC0 /* GWLTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD112AF1904CC769CCE766A53D42191F /* Pods-GWLTextView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A16FC32FC1BF3692EFBB39C1C576D2 /* Build configuration list for PBXNativeTarget "Pods-GWLTextView_Tests" */;
+			buildPhases = (
+				D58C07378C022AE024E8092F9F319AAF /* Sources */,
+				D81EE2AB6DAF24B96101458523C86293 /* Frameworks */,
+				6D8086B6D01439585DC5392569BE4761 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GWLTextView_Tests";
+			productName = "Pods-GWLTextView_Tests";
+			productReference = 0C36C5395CF8F5128850810672DD1FEE /* Pods_GWLTextView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 79BE904CD3F1F5718AAC9AAFB23E8072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44DB4C0ACC054D896144D76ACB1DED76 /* GWLTextView */,
+				13A2007B99C2137011DBB1D7ECD2E987 /* Pods-GWLTextView_Example */,
+				DD112AF1904CC769CCE766A53D42191F /* Pods-GWLTextView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		121CF70A93001E119E3845C93E90D259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08319F77764CE1CAF56621204B878288 /* GWLTextView-dummy.m in Sources */,
+				C408C4C2D7B0430AFB492F9674C78C7C /* GWLTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A936F295A4492F20E1170516CDFC41D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E8C6FD40B63A40A3F0037FE6B812B7 /* Pods-GWLTextView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58C07378C022AE024E8092F9F319AAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874CF004F58A8930DD42A50B12064A7C /* Pods-GWLTextView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E91FE721206D950DFA1FA16C8E4ECB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GWLTextView;
+			target = 44DB4C0ACC054D896144D76ACB1DED76 /* GWLTextView */;
+			targetProxy = E05703A8A1BD3A8CB14C1D38EE1160F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		45C0A4104FE2B931C3E3DA918AD3DD64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253DCF705B2BD4C62BD9718603140080 /* Pods-GWLTextView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GWLTextView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GWLTextView_Example/Pods-GWLTextView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GWLTextView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CC92F3D96281F7900B0C46E45B4ED0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE1C943B629306F331BE573F828C94EA /* Pods-GWLTextView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GWLTextView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GWLTextView_Tests/Pods-GWLTextView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GWLTextView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CA0413B415D53711531D889CF00D4983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C306426682A8F283D5AF2AE391B35F8A /* GWLTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GWLTextView/GWLTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GWLTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GWLTextView/GWLTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GWLTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF5AE023FA033F88F2161ABFC80D3567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CB9BCD4FAFF3BE63A1672F0FE0AA053 /* Pods-GWLTextView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GWLTextView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GWLTextView_Example/Pods-GWLTextView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GWLTextView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F69B176AEF34721107ECF0A9C65984AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1E0E1970403F4991D676495E2C3A22 /* Pods-GWLTextView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GWLTextView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GWLTextView_Tests/Pods-GWLTextView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GWLTextView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FBC9641C4024F08B9E3996F814FD57CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C306426682A8F283D5AF2AE391B35F8A /* GWLTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GWLTextView/GWLTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GWLTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GWLTextView/GWLTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GWLTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33EC65FFA3374790D4C785435509BF86 /* Build configuration list for PBXNativeTarget "Pods-GWLTextView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C0A4104FE2B931C3E3DA918AD3DD64 /* Debug */,
+				DF5AE023FA033F88F2161ABFC80D3567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69A16FC32FC1BF3692EFBB39C1C576D2 /* Build configuration list for PBXNativeTarget "Pods-GWLTextView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69B176AEF34721107ECF0A9C65984AC /* Debug */,
+				6CC92F3D96281F7900B0C46E45B4ED0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C458C2C432D596865B0D45D4FF53594C /* Build configuration list for PBXNativeTarget "GWLTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0413B415D53711531D889CF00D4983 /* Debug */,
+				FBC9641C4024F08B9E3996F814FD57CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

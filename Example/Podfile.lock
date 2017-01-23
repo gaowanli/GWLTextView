@@ -1,0 +1,16 @@
+PODS:
+  - GWLTextView (0.1.0)
+
+DEPENDENCIES:
+  - GWLTextView (from `../`)
+
+EXTERNAL SOURCES:
+  GWLTextView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GWLTextView: 9d053839d3a8e1313afc454bd4f8040b7637ed4f
+
+PODFILE CHECKSUM: de53fadc2426bca5cf59fcf79190bd54af4562f7
+
+COCOAPODS: 1.1.1

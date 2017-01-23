@@ -1,0 +1,6 @@
+framework module GWLTextView {
+  umbrella header "GWLTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}

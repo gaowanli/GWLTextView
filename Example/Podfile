@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GWLTextView_Example' do
+  pod 'GWLTextView', :path => '../'
+
+  target 'GWLTextView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

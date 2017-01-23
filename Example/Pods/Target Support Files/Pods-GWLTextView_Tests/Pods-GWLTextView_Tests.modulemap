@@ -1,0 +1,6 @@
+framework module Pods_GWLTextView_Tests {
+  umbrella header "Pods-GWLTextView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
