@@ -25,7 +25,10 @@
         self.limitedToNumberOfLines = NSIntegerMax;
         
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textViewTextDidChange:) name:UITextViewTextDidChangeNotification object:self];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textViewTextDidBegin:) name:UITextViewTextDidBeginEditingNotification object:self];
+        
         [self addObserver:self forKeyPath:@"font" options:NSKeyValueObservingOptionNew context:nil];
+        [self addObserver:self forKeyPath:@"text" options:NSKeyValueObservingOptionNew context:nil];
     }
     return self;
 }
@@ -58,8 +61,14 @@
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
-    if (object == self && [keyPath isEqualToString:@"font"]) {
-        self.placeHolderLabel.font = self.font;
+    if (object == self) {
+        if ([keyPath isEqualToString:@"font"]) {
+            self.placeHolderLabel.font = self.font;
+        }else if ([keyPath isEqualToString:@"text"]) {
+            if (self.text.length <= 0) {
+                self.placeHolderLabel.hidden = NO;
+            }
+        }
     }
 }
 
@@ -71,6 +80,14 @@
             self.placeHolderLabel.hidden = YES;
         }else {
             self.placeHolderLabel.text = _placeHolder;
+            self.placeHolderLabel.hidden = NO;
+        }
+    }
+}
+
+- (void)textViewTextDidBegin:(NSNotification *)notification {
+    if (notification.object == self) {
+        if (self.text.length <= 0) {
             self.placeHolderLabel.hidden = NO;
         }
     }
@@ -96,7 +113,10 @@
 
 - (void)dealloc {
     [self removeObserver:self forKeyPath:@"font"];
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:UITextViewTextDidChangeNotification object:nil]; 
+    [self removeObserver:self forKeyPath:@"text"];
+    
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UITextViewTextDidBeginEditingNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UITextViewTextDidChangeNotification object:nil];
 }
 
 @end
