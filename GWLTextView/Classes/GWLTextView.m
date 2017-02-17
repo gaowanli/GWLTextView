@@ -66,7 +66,11 @@
             self.placeHolderLabel.font = self.font;
         }else if ([keyPath isEqualToString:@"text"]) {
             if (self.text.length <= 0) {
+                self.placeHolderLabel.text = _placeHolder;
                 self.placeHolderLabel.hidden = NO;
+            }else {
+                self.placeHolderLabel.text = self.text;
+                self.placeHolderLabel.hidden = YES;
             }
         }
     }
